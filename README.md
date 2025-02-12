@@ -44,6 +44,12 @@ pip install -r requirements.txt
 运行下面的命令
 
 python search.py
+​
+如果报错：RuntimeError: CUDA error: CUBLAS_STATUS_INVALID_VALUE when calling `cublasSgemm( handle, opa, opb, m, n, k, &alpha, a, lda, b, ldb, &beta, c, ldc)`
+
+输入下面的命令即可：
+
+unset LD_LIBRARY_PATH
 
 （7）运行结果
 
