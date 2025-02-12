@@ -11,7 +11,9 @@ https://blog.csdn.net/weixin_54186806/article/details/145596964?spm=1001.2014.30
 --来自百度网盘超级会员v6的分享
 
 下载之后直接放在当前项目目录下就好（注意不要修改model这个文件名）
+
 ![image](https://github.com/user-attachments/assets/2764e4fe-9525-4381-b9c5-9b0d043d23dd)
+
 
 （2）创建虚拟环境
 
@@ -32,7 +34,9 @@ conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit
 pip install -r requirements.txt
 
 （5）修改search中的训练参数
+
 ![image](https://github.com/user-attachments/assets/cfa6f342-7ad8-4d30-9a4f-34fceb2fbf5c)
+
 
 直接在这个上面进行修改，修改成你自己的路径（建议先不要修改，直接运行，跑通之后再用自己的数据进行测试）
 （6）跳转到当前目录/yolov5_reid/model
@@ -42,6 +46,8 @@ pip install -r requirements.txt
 python search.py
 
 （7）运行结果
+
 ![image](https://github.com/user-attachments/assets/b76e9999-8ec7-4a15-9e80-30764dee17a2)
+
 
 运行结果保存在output这个文件夹里，我们可以看到两个摄像头下的可以追踪到同一个人，识别到个人。
